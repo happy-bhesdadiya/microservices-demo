@@ -1,0 +1,21 @@
+{
+  "name": "microsevices-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-book": "nodemon books/books.js",
+    "dev-customer": "nodemon customers/customers.js",
+    "dev-order": "nodemon orders/orders.js"
+  },
+  "author": "Happy Bhesdadiya",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.13"
+  }
+}
